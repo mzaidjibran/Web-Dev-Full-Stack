@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi color Nav bar</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        :root {
+            --homecolor: blue;
+            --mathcolor: brown;
+            --sciencecolor: red;
+            --urducolor: green;
+            --aboutcolor: orange;
+            --contactcolor: yellow;
+        }
+
+        .nav {
+            background-color: blueviolet;
+            display: flex;
+            height: 60px;
+
+
+        }
+
+        .home {
+            padding-top: 19px;
+            padding-right: 180px;
+            padding-left: 15px;
+            background-color: var(--contactcolor);
+            color: var(--urducolor);
+
+
+
+        }
+
+        .home a {
+            text-decoration: none;
+            color: var(--mathcolor);
+        }
+
+        body {
+            background-color: var(--aboutcolor);
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="home"><a href="##">Home</a></div>
+            <div class="home"><a href="##">Math</a></div>
+            <div class="home"><a href="##">Science</a></div>
+            <div class="home"><a href="##">urdu</a></div>
+            <div class="home"><a href="###">About</a></div>
+            <div class="home"><a href="##">Contact</a></div>
+        </div>
+    </header>
+
+</body>
+
+</html>
