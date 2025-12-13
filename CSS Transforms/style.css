@@ -1,0 +1,17 @@
+.container {
+    height: 80vh;
+    width: 100vh;
+    border: 2px solid black;
+}
+
+.box {
+
+    height: 50px;
+    width: 50px;
+    background-color: aquamarine;
+    border: 2px solid rgb(82, 230, 72);
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
