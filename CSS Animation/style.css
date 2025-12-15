@@ -7,7 +7,7 @@
 .box {
     height: 30vh;
     width: 10vw;
-    background-color: rgb(29, 123, 123);
+    /* background-color: rgb(29, 123, 123); */
     animation: ZaidKaAnimation;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -18,12 +18,14 @@
 
 @keyframes ZaidKaAnimation {
     from {
+        background-color: blanchedalmond;
         transform: translateX(80vw);
+
 
     }
 
     to {
-
+        background-color: blueviolet;
         transform: translateY(120px);
 
     }
@@ -33,7 +35,7 @@
 .box1 {
     height: 30vh;
     width: 10vw;
-    background-color: rgb(186, 78, 35);
+
     animation: ZaidKaDoosraAnimation;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -45,9 +47,12 @@
 
 @keyframes ZaidKaDoosraAnimation {
 
-    from {}
+    from {
+        background-color: rgb(186, 78, 35);
+    }
 
     to {
+        background-color: rgb(72, 11, 11);
         transform: translateX(80vw);
     }
 
@@ -56,7 +61,7 @@
 .box2 {
     height: 30vh;
     width: 10vw;
-    background-color: rgb(85, 24, 139);
+
     animation: ZaidKaTeesraAnimation;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -68,9 +73,12 @@
 @keyframes ZaidKaTeesraAnimation {
 
     from {
+        background-color: rgb(85, 24, 139);
         transform: translateX(80vw);
     }
 
-    to {}
+    to {
+        background-color: rgb(31, 102, 65);
+    }
 
 }
