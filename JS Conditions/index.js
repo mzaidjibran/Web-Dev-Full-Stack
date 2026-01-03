@@ -1,9 +1,12 @@
 console.log("Hello I am conditional statement!");
 
-let age = 11;
-let age2 = 2;
-if ((age + age2) > 18) {
-    console.log("You are eligible to drive");
+let age = 1;
+
+if (age==0) {
+    console.log("Are you kidding?");
+}
+else if (age==1){
+    console.log("Are you again kidding?");
 }
 else {
     console.log("You are not eligible to drive");
