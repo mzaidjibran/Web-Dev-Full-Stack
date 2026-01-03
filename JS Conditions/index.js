@@ -11,3 +11,5 @@ else if (age == 1) {
 else {
     console.log("You are not eligible to drive");
 }
+
+// Conditions
