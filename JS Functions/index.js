@@ -24,3 +24,4 @@ const func1 = (a) => {
 func1(34);
 func1(3);
 func1(20);
+func1(90);
