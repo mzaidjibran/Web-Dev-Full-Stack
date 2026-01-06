@@ -15,3 +15,12 @@ function sum(a, b) {
 
 result = sum(76, 89);
 console.log("The sum of two numbers is " + result);
+
+//This arrow function acts as a constant variable in the following code.
+const func1 = (a) => {
+    console.log("I am an arrow function " + a);
+}
+
+func1(34);
+func1(3);
+func1(20);
